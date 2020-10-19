@@ -12,7 +12,7 @@ const questions = [
         },
  
         {
-        type: "input",
+         type: "input",
         name: "description",
         message: "Provide a detailed project description.",
         },
@@ -39,7 +39,7 @@ const questions = [
         type: "input",
         name: "test",
         message: "Provide test instructions.",
-        },
+        }, 
 
         {
         type: "list",
@@ -63,10 +63,11 @@ const questions = [
         name: "email",
         message: "What is your email address?",
         },
-
+ 
 ];
 
-/* function createData(data){ */
+function createFile(){ 
+
     
     inquirer.prompt(questions)
         .then(function(data) {
@@ -76,9 +77,9 @@ const questions = [
             let description = data.description;
             let usage = data.usage;
             let contribution = data.contribution;
-            let test = data.test;
+            let test = data.test; 
             let github = data.github;
-            let email = data.email;
+            let email = data.email; 
             let license = data.license;
             let licenseInfo = ``;
 
@@ -332,21 +333,32 @@ const questions = [
 
 
                 `
+             
+              
+            let filename = "README.md"
 
-        });
-   /*  }; */
+         fs.writeFile(filename, readMe, function(err){
+                if(err) {return console.log(err)};         
+            });
+            console.log("Your README.md has been created.")
+        });   
+        
+   
+    }; 
+
+    createFile();
 
 // function to write README file
 
-/*     fs.writeFile(filename, data, function(err){
+   /*   fs.writeFile(filename, data, function(err){
         if(err) {
             return console.log(err);
         }
     });
- */
+
 
 // function to initialize program
-/* let filename = "README.md"
+let filename = "README.md"
 
 async function init() {
     try {
@@ -362,4 +374,4 @@ async function init() {
 {console.log(error);}
 };
 // function call to initialize program
-init(); */
+init();  */
