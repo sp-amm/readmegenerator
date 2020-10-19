@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 README.md                
-#asdfasdfasd
+#asdfasdfas
 
 DESCRIPTION
-rtgrtgerh
+rtwertwer
 
 ## Table of Contents:
 
@@ -15,36 +14,15 @@ rtgrtgerh
 [Questions](#questions)
 
 ## Installation
-jrtjrrjty
+dfghdgh
 
 ## Usage
-vhjjghjvgj
-=======
-
-## DESCRIPTION
-asdwerqwer
-
-## Table of Contents:
-
-**[Installation](#installation)**
-**[Usage](#usage)**
-**[License](#license)**
-**[Contributing](#contributing)**
-**[Tests](#tests)**
-**[Questions](#questions)**
-
-## Installation
-ghdfghdh
-
-## Usage
-uyrujrujry
->>>>>>> 5eaa347df18d7a78061012f19d6bb3f9c7b6b5c3
+vbxvccxv
 
 ## License
 MIT
 MIT License
 
-<<<<<<< HEAD
                 Copyright (c) 
                 
                 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -66,42 +44,11 @@ MIT License
                 SOFTWARE.
 
 ## Contributing
-bgfsfddbsdf
+gfsger
 
 ## Tests
-dfgduy6e56ywtes
+gdfgd
 
 ## Questions
-You can find more information at my github profile at https://github.com/xdfgsr.
-Email me at nhfgjdty anytime.
-=======
-Copyright (c) 
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-## Contributing
- nc vbncvbndg
-
-## Tests
-sdfbzxdzsd
-
-## Questions
-You can find more information at my github profile at https://github.com/bxcvbjhdy.
-Email me at zcvbxfghdrth anytime.
->>>>>>> 5eaa347df18d7a78061012f19d6bb3f9c7b6b5c3
+You can find more information at my github profile at https://github.com/ssfgsfh.
+Email me at jhdytrtrefds anytime.
