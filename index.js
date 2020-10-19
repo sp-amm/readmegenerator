@@ -293,42 +293,40 @@ function createFile(){
             
             let readMe =
 
-                `README.md
-                
-                #${title}
+`README.md                
+#${title}
 
-                DESCRIPTION
-                ${description}
+DESCRIPTION
+${description}
 
-                ## Table of Contents:
+## Table of Contents:
 
-                **[Installation](#installation)**
-                **[Usage](#usage)**
-                **[License](#license)**
-                **[Contributing](#contributing)**
-                **[Tests](#tests)**
-                **[Questions](#questions)**
+[Installation](#installation)
+[Usage](#usage)
+[License](#license)
+[Contributing](#contributing)
+[Tests](#tests)
+[Questions](#questions)
 
-                ##Installation
-                ${install}
+## Installation
+${install}
 
-                ##Usage
-                ${usage}
+## Usage
+${usage}
 
-                ##License
-                ${license}
-                ${licenseInfo}
+## License
+${license}
+${licenseInfo}
 
-                ##Contributing
-                ${contribution}
+## Contributing
+${contribution}
 
-                ##Tests
-                ${test}
+## Tests
+${test}
 
-                ##Questions
-                You can find more information at my github profile at https://github.com/${github}.
-                Email me at ${email} anytime.
-                `
+## Questions
+You can find more information at my github profile at https://github.com/${github}.
+Email me at ${email} anytime.`
              
               
             let filename = "README.md"
