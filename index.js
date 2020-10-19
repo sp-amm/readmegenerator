@@ -85,7 +85,7 @@ function createFile(){
 
             function getLicence(license){
 
-                if(license =="MIT"){
+                if(license ==="MIT"){
                     licenseInfo = `MIT License
 
                     Copyright (c) 

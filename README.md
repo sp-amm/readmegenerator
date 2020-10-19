@@ -1,9 +1,9 @@
 README.md
                 
-                test
+                README Generator
 
                 DESCRIPTION
-                test
+                A program that gemerates a README.md from the Command Line. User will be prompted to provide all necessary information via the command line. Program uses the inquirer and fs packages.  
 
                 ## Table of Contents:
 
@@ -15,24 +15,24 @@ README.md
                 [Questions](#questions)
 
                 ##Installation
-                testing
+                Dependencies are npm inquirer and fs. Code can be copied and utilised through the command line.
 
                 ##Usage
-                test
+                Usage is free.
 
                 ##License
                 MIT
                 
 
                 ##Contributing
-                jhfhjkfsd
+                No contributions to the code accepted. User may take the code and change and use as they wish with another repository. 
 
                 ##Tests
-                jkfdlsf
+                NA
 
                 ##Questions
                 You can find more information at my gothub profile at https://github.com/sp.am.
-                Email me at jflsdf anytime.
+                Email me at sam.pack.sp@gmail.com anytime.
 
 
                 
