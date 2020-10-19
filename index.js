@@ -66,7 +66,7 @@ const questions = [
 
 ];
 
-function createData(data){
+/* function createData(data){ */
     
     inquirer.prompt(questions)
         .then(function(data) {
@@ -334,23 +334,32 @@ function createData(data){
                 `
 
         });
-    };
+   /*  }; */
 
 // function to write README file
-let filename = "README.md"
 
-function writeToFile(fileName, data) {
+/*     fs.writeFile(filename, data, function(err){
+        if(err) {
+            return console.log(err);
+        }
+    });
+ */
+
+// function to initialize program
+/* let filename = "README.md"
+
+async function init() {
+    try {
+    createData(data);
+    await 
     fs.writeFile(filename, readMe, function(err){
         if(err) {
             return console.log(err);
         }
-    })
+    });
+    console.log("Your README.md has been created.")
+}catch (err)
+{console.log(error);}
 };
-
-// function to initialize program
-function init() {
-
-}
-
 // function call to initialize program
-init();
+init(); */
