@@ -295,24 +295,24 @@ function createFile(){
 
                 `README.md
                 
-                ${title}
+                #${title}
 
                 DESCRIPTION
                 ${description}
 
                 ## Table of Contents:
 
-                [Installation](#installation)
-                [Usage](#usage)
-                [License](#license)
-                [Contributing](#contributing)
-                [Tests](#tests)
-                [Questions](#questions)
+                **[Installation](#installation)**
+                **[Usage](#usage)**
+                **[License](#license)**
+                **[Contributing](#contributing)**
+                **[Tests](#tests)**
+                **[Questions](#questions)**
 
-                Installation
+                ##Installation
                 ${install}
 
-                Usage
+                ##Usage
                 ${usage}
 
                 ##License
@@ -326,10 +326,8 @@ function createFile(){
                 ${test}
 
                 ##Questions
-                You can find more information at my gothub profile at https://github.com/${github}.
+                You can find more information at my github profile at https://github.com/${github}.
                 Email me at ${email} anytime.
-
-
                 `
              
               
@@ -345,31 +343,3 @@ function createFile(){
     }; 
 
     createFile();
-
-// function to write README file
-
-   /*   fs.writeFile(filename, data, function(err){
-        if(err) {
-            return console.log(err);
-        }
-    });
-
-
-// function to initialize program
-let filename = "README.md"
-
-async function init() {
-    try {
-    createData(data);
-    await 
-    fs.writeFile(filename, readMe, function(err){
-        if(err) {
-            return console.log(err);
-        }
-    });
-    console.log("Your README.md has been created.")
-}catch (err)
-{console.log(error);}
-};
-// function call to initialize program
-init();  */
