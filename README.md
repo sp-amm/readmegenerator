@@ -1,8 +1,8 @@
 README.md                
-#asdfasdf
+#asdfasdfasdf
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-
-DESCRIPTION
+##DESCRIPTION
 asdfasdf
 
 ## Table of Contents:
@@ -15,10 +15,10 @@ asdfasdf
 [Questions](#questions)<br>
 
 ## Installation
-asdfasdf
+asdfads
 
 ## Usage
-asdfasdf
+asdfadsf
 
 ## License
 MIT
@@ -51,5 +51,5 @@ asdfadsf
 asdfasdf
 
 ## Questions
-You can find more information at my github profile at https://github.com/sp-amm.
+You can find more information at my github profile at https://github.com/asdfasdf.
 Email me at asdfasdf anytime.

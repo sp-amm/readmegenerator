@@ -82,12 +82,12 @@ function createFile(){
             let email = data.email; 
             let license = data.license;
             let year = new Date().getFullYear();
-            let badgeUrl = ""
+            let badgeUrl = "";
             
 
             if(license ==="MIT"){
 
-                let badgeUrl = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+                badgeUrl = "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
                 licenseInfo = `MIT License
 
 Copyright (c) ${year}
@@ -111,7 +111,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.`;
             };
             if(license =="GNU"){
-                let badgeUrl = "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
+                badgeUrl = "![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
                 licenseInfo = `GNU GENERAL PUBLIC LICENSE
                 Version 3, 29 June 2007
 
@@ -736,7 +736,7 @@ copy of the Program in return for a fee.
                 `;
             };
             if(license==="Apache"){
-                let badgeUrl = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+                badgeUrl = "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
                 licenseInfo = `Apache License
 Version 2.0, January 2004
     http://www.apache.org/licenses/
@@ -922,7 +922,7 @@ END OF TERMS AND CONDITIONS`;
 #${title}
 ${badgeUrl}
 
-DESCRIPTION
+##DESCRIPTION
 ${description}
 
 ## Table of Contents:
