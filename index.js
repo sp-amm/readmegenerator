@@ -66,6 +66,7 @@ const questions = [
  
 ];
 
+//function to create the readme file
 function createFile(){ 
 
     
@@ -84,7 +85,7 @@ function createFile(){
             let year = new Date().getFullYear();
             let badgeUrl = "";
             
-
+//license text depending on which is chosen
             if(license ==="MIT"){
 
                 badgeUrl = "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
@@ -152,6 +153,7 @@ See the License for the specific language governing permissions and
 limitations under the License.`;
             };
                   
+//the variable for text data for the writefile function
             
             let readMe =
 
@@ -191,6 +193,8 @@ ${test}
 You can find more information at my github profile at https://github.com/${github}.
 Email me at ${email} anytime.`
              
+
+//Function to write the file using fs
               
             let filename = "README.md"
 
