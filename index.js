@@ -82,6 +82,7 @@ function createFile(){
             let email = data.email; 
             let license = data.license;
             let year = new Date().getFullYear();
+            let badgeUrl = ""
             
 
             if(license ==="MIT"){
