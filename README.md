@@ -1,10 +1,10 @@
 README.md                
-# asdfaerrt<br>
+# README Generator<br>
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## DESCRIPTION
-hrttyhfthy
+A command-line applicaiton that will quickly and easily gerenate a project README in markdown. The User will be prompted to answer questions using npm inquirer. The data will then be used to wrtie a file using npm fs.
 
 ## Table of Contents:
 
@@ -16,13 +16,12 @@ hrttyhfthy
 [Questions](#questions)<br>
 
 ## Installation
-tfyhthyfhty
+Run the following commands in the command line before using the application: npm init nom install
 
 ## Usage
-fthyhtyhtyf
+Run the following command in the command line at the root folder and answer the questions as prompted: node index.js
 
 ## License
-MIT
 MIT License
 
 Copyright (c) 2020
@@ -46,11 +45,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Contributing
-fthyhtyftyfh
+Pull requests are welcome.
 
 ## Tests
-hytfyhhytf
+test file is not create for this project.
 
 ## Questions
-You can find more information at my github profile at https://github.com/fhthyf.
-Email me at fhtyfhty anytime.
+You can find more information at my github profile at https://github.com/sp-amm.
+Email me at sam.pack.sp@gmail.com anytime.
