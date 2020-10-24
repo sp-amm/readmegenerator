@@ -87,7 +87,7 @@ function createFile(){
 
             if(license ==="MIT"){
 
-                badgeUrl = "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+                badgeUrl = "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]";
                 licenseInfo = `MIT License
 
 Copyright (c) ${year}
@@ -111,7 +111,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.`;
             };
             if(license =="GNU"){
-                badgeUrl = "![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
+                badgeUrl = "![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]"
                 licenseInfo = `GNU GENERAL PUBLIC LICENSE
                 Version 3, 29 June 2007
 
@@ -736,7 +736,7 @@ copy of the Program in return for a fee.
                 `;
             };
             if(license==="Apache"){
-                badgeUrl = "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+                badgeUrl = "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]"
                 licenseInfo = `Apache License
 Version 2.0, January 2004
     http://www.apache.org/licenses/
@@ -919,10 +919,11 @@ END OF TERMS AND CONDITIONS`;
             let readMe =
 
 `README.md                
-#${title}
+# ${title}<br>
+
 ${badgeUrl}
 
-##DESCRIPTION
+## DESCRIPTION
 ${description}
 
 ## Table of Contents:
