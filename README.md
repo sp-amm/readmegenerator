@@ -4,7 +4,7 @@ README.md
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## DESCRIPTION
-A command-line applicaiton that will quickly and easily gerenate a project README in markdown. The User will be prompted to answer questions using npm inquirer. The data will then be used to wrtie a file using npm fs.
+A command-line application that will quickly and easily generate a project README in markdown for use in git hub. The User will be prompted to answer questions through the use of npm inquirer. Once all data is provided npm fs will write the README.
 
 ## Table of Contents:
 
@@ -16,10 +16,10 @@ A command-line applicaiton that will quickly and easily gerenate a project READM
 [Questions](#questions)<br>
 
 ## Installation
-Run the following commands in the command line before using the application: npm init nom install
+Run the npm init & npm install commands in the command line before using the application. 
 
 ## Usage
-Run the following command in the command line at the root folder and answer the questions as prompted: node index.js
+Run the node index.js command in the command line (e.g. powershell) at the root folder and answer the questions as prompted.
 
 ## License
 MIT License
@@ -48,7 +48,7 @@ SOFTWARE.
 Pull requests are welcome.
 
 ## Tests
-test file is not create for this project.
+No test file is included.
 
 ## Questions
 You can find more information at my github profile at https://github.com/sp-amm.
